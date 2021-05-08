@@ -1,0 +1,17 @@
+@{
+    ViewData["Title"] = "Upload Page";
+}
+<h1>Upload filezinho</h1>
+<hr />
+<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    @if(ViewData["Error"] != null){
+      <h2 class="display-4">@ViewData</h2>
+    }
+  </div>
+  <div class="container">
+    @if(ViewData["Resultado"] != null){
+      <h2 class="display-4">@ViewData</h2>
+    }
+  </div>
+</div>

@@ -9,17 +9,17 @@ using Microsoft.AspNetCore.Mvc;
 
 
 namespace UploadArquivos.Controllers{
-    public class UploadModel : Controller{
+    public class UploadController : Controller{
         //Instanciando IHostingEnvionment
         IHostingEnvironment _appEnvironment;
-        public UploadModel(IHostingEnvironment env)
+        public UploadController(IHostingEnvironment env)
         {
             _appEnvironment = env;
             
         }
 
         //retornando formulario
-        public IActionResult upload(){
+        public IActionResult Index(){
             return View();
         }
 
@@ -61,7 +61,7 @@ namespace UploadArquivos.Controllers{
 
         }
         
-        /*public interface IFormFile{
+        public interface IFormFile{
             public string ContentDisposition { get;}
             public string ContentType { get; }
             public string FileName { get; }
@@ -74,7 +74,7 @@ namespace UploadArquivos.Controllers{
              System.Threading.CancellationToken cancellationToken = default
             );
             public void CopyTO (System.IO.Stream target);
-        } */
+        } 
 
     }
 }

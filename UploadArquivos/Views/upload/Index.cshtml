@@ -1,0 +1,28 @@
+@{
+    ViewData["Title"] = "Home Page";
+}
+<h1>Enviar Arquivos </h1>
+<hr />
+<div class="jumbotron jumbotron-fluid">
+    <div class="container">
+        <div class="row">
+            <section>
+                <form method="post" enctype="multipart/form-data"
+                 asp-controller="Upload" asp-action="EnviarArquivo"
+                >
+                <div class="form-group">
+                    <div class="col-md-10">
+                        <p>Selecionar Arquivos</p>
+                        <input type="submit" name="arquivos" multiple/>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-md-10">
+                        <input type="submit" value="Enviar Arquivos"/>
+                    </div>
+                </div>
+                </form>
+            </section>
+        </div>
+    </div>
+</div>
