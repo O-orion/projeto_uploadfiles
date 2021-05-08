@@ -14417,6 +14417,16 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\Lucas\\Desktop\\Lucas\\Projetos\\mvc\\UploadArquivos\\Views\\upload\\Arquivos.cshtml",
+      "TargetPath": "Views\\upload\\Arquivos.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Lucas\\Desktop\\Lucas\\Projetos\\mvc\\UploadArquivos\\Views\\Home\\Info.cshtml",
+      "TargetPath": "Views\\Home\\Info.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\Lucas\\Desktop\\Lucas\\Projetos\\mvc\\UploadArquivos\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "FileKind": "mvc"
@@ -14429,11 +14439,6 @@
     {
       "FilePath": "c:\\Users\\Lucas\\Desktop\\Lucas\\Projetos\\mvc\\UploadArquivos\\Views\\Shared\\_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Lucas\\Desktop\\Lucas\\Projetos\\mvc\\UploadArquivos\\Views\\Home\\Privacy.cshtml",
-      "TargetPath": "Views\\Home\\Privacy.cshtml",
       "FileKind": "mvc"
     }
   ],
