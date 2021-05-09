@@ -74,7 +74,7 @@ namespace UploadArquivos.Controllers{
                 }
 
             }
-            ViewData["Resultado"] = $"{nome} {arquivos.Count} arquivos foram enviado" + $" caminho: {tamanhoArquivo} bytes";
+            ViewData["Resultado"] = "Upload realizado com sucesso!";
             return View(ViewData);
 
         }
